@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  width: 100%;
+  min-height: 100%;
+  background: #ced8ff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: 0.5s;
+}
+.container.dark{
+  background:#222; 
+}
