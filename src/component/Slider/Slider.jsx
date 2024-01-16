@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import slider2 from"../assets/slider2.jpeg"
 // import slider3 from"../assets/slider3.png"
 import slider4 from"../assets/main.jpg"
-import slider5 from"../assets/main1.jpg"
-import slider6 from"../assets/data-science.webp"
+import slider5 from"../assets/ai2.jpg"
+import slider6 from"../assets/slider.avif"
 import slider7 from"../assets/app-development.avif"
 import slider8 from"../assets/python.webp"
 import slider9 from"../assets/prog.jpg"
@@ -47,9 +47,9 @@ const Slider = () => {
           <SlideImage src={slider8} />
         </SwiperSlide>
         <SwiperSlide>
-          <SlideImage src={slider6} />
+          <SlideImage src={slider9} />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <SlideImage src={slider7} />
         </SwiperSlide>
         <SwiperSlide>
@@ -57,7 +57,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <SlideImage src={slider9} />
-        </SwiperSlide>
+        </SwiperSlide> */}
   </Swiper>
 </>
   )
