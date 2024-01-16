@@ -38,9 +38,9 @@ export default function Footer() {
                   </span>
                 </a>
                 <a className="hover:underline hover:font-semibold " href="/">
-                  <span className="flex flex-row gap-3">
+                  <span className="flex flex-row gap-2">
                     <LuPhoneCall className="mt-1.5" />
-                    :(+91) 6201553036 /7857948521
+                    +91 6201553036,7857948521
                   </span>
                 </a>
               </div>
